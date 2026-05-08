@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
-    "start": "vinxi start",
-    "lint": "eslint .",
-    "format": "prettier --write ."
+    "start": "vinxi start"
   },
   "dependencies": {
     "vinxi": "^0.3.11",
