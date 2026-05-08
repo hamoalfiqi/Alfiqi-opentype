@@ -6,7 +6,7 @@ import tsConfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
   plugins: [
-    tsConfigPaths(), // ده لوحده هيخلي الـ @ تشتغل من غير أخطاء
+    tsConfigPaths(), 
     tailwindcss(),
     tanstackStart({
       target: "vercel",
